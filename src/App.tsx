@@ -1,5 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Footer from "./Components/Footer/Footer";
 import Header from "./Components/Header/Header";
 import HomeScreen from "./Components/HomeScreen";
 
@@ -11,6 +12,7 @@ function App() {
 				<Routes>
 					<Route path='/' element={<HomeScreen />} />
 				</Routes>
+				<Footer />
 			</Router>
 		</div>
 	);

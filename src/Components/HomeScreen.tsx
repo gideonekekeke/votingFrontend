@@ -2,6 +2,7 @@ import React from "react";
 import AllOrganisation from "./AllOrganisationImage/AllOrganisation";
 import HeroComp from "./HeroComp/HeroComp";
 import KickOffComp from "./KickOffComp/KickOffComp";
+import LastComponent from "./LastComponent/LastComponent";
 import OnlineComp from "./OnlineComp/OnlineComp";
 import SecureComp from "./SecureComp/SecureComp";
 
@@ -20,6 +21,7 @@ const HomeScreen = () => {
 			<SecureComp />
 			<OnlineComp />
 			<AllOrganisation />
+			<LastComponent />
 		</div>
 	);
 };

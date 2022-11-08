@@ -183,6 +183,7 @@ const Container = styled.div`
 	justify-content: center;
 	@media screen and (max-width: 960px) {
 		height: 100%;
+		padding-bottom: 50px;
 
 		h2 {
 			justify-content: center;

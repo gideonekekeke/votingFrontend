@@ -6,7 +6,10 @@ const AllOrganisation = () => {
 		<Container>
 			<Cont>
 				{" "}
-				<h1>Join over 55+ Organisations taken part in the Election .</h1>
+				<h1>
+					Join over 55+ <span>Organisations</span> taken <br />
+					part in the Election .
+				</h1>
 				{/* <Button>Sign Up and Try it Free</Button> */}
 			</Cont>
 		</Container>
@@ -22,6 +25,11 @@ const Cont = styled.div`
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
+	text-align: center;
+
+	span {
+		color: #fbaf1b;
+	}
 `;
 
 const Container = styled.div`
@@ -35,6 +43,10 @@ const Container = styled.div`
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
+
+	@media screen and (max-width: 960px) {
+		height: 300px;
+	}
 
 	:before {
 		content: "";
